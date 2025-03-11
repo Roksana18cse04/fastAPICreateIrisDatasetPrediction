@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+
+# FastAPI specific
+instance/
+.DS_Store
+
+# Ignore Python package dependencies
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode & PyCharm IDE settings
+.vscode/
+.idea/
+
+# Ignore compiled Python files
+temp/
+
+# Ignore model & scaler files if they are regenerated
+app/model.pkl
+app/scaler.pkl
+
+# Ignore __init__.py files if empty
+__init__.py
